@@ -17,18 +17,23 @@
     font-size: 20px;
     text-decoration: none;
 
-    .container-fluid {
+    .contenedor-head {
         justify-content: flex-start !important;
-    }
-    .navbar-collapse {
-        display: flex;
-        flex-direction: row;
-        /* flex-basis: 0; */
-        flex-grow: 0;
-        margin: 15px;
-    }
-    .nav-link {
-        color: #254441 !important;
+
+        .navbar-collapse {
+            flex-direction: row;
+            /* flex-basis: 0; */
+            flex-grow: 0;
+            margin: 15px;
+
+            .nav-link {
+                color: #254441;
+
+                &:hover {
+                    color: #6e46ff;
+                }
+            }
+        }
     }
 }
 
@@ -50,22 +55,23 @@
     color: #254441;
     font-family: "Open Sans";
     font-weight: bolder;
+
     .cuerpo-index {
         position: relative;
         width: 80%;
         margin: 0 auto;
         font-size: 25px !important;
+
+        .contenido-index {
+            position: absolute;
+            bottom: 0;
+            background: rgb(0, 0, 0);
+            background: rgba(0, 0, 0, 0.5);
+            color: #f1f1f1;
+            width: 97%;
+            padding: 20px;
+        }
     }
-    .contenido-index {
-        position: absolute;
-        bottom: 0;
-        background: rgb(0, 0, 0);
-        background: rgba(0, 0, 0, 0.5);
-        color: #f1f1f1;
-        width: 97%;
-        padding: 20px;
-    }
-    
 }
 
 #main-nosotres {
@@ -75,15 +81,17 @@
     color: #254441;
     font-family: "Open Sans";
     font-weight: bolder;
+
     .subtitulo-nos {
         background-color: #cebfca;
         text-align: center;
         margin: 0;
         padding-bottom: 10px;
     }
+
     .cuerpo-nos {
         text-align: center;
-    
+
     }
 
 }
@@ -94,7 +102,8 @@
     padding-left: 30px;
     font-family: "Open Sans";
     color: #254441 !important;
-    background-image: linear-gradient(#cebfca, white);
+    background-image: linear-gradient(#cebfca, white) !important;
+
     .cuerpo-contacto {
         background-image: linear-gradient(#cebfca, white);
         padding-bottom: 20px;
@@ -110,6 +119,7 @@
     background-image: linear-gradient(#cebfca, white);
     padding-bottom: 20px;
     color: #254441;
+
     .row-cristales {
         padding-left: 150px;
         padding-bottom: 20px;
@@ -123,6 +133,7 @@
     font-family: "Open Sans";
     background-image: linear-gradient(#cebfca, white);
     color: #254441;
+
     .accordion {
         padding-top: 15px;
         font-family: "Open Sans";
@@ -131,7 +142,7 @@
         --bs-accordion-active-color: #254441;
         --bs-accordion-active-bg: #dafaf2;
     }
-    
+
 }
 
 
@@ -143,6 +154,11 @@
     color: #254441 !important;
     text-align: center;
     text-decoration: none;
+
+    .navbar-brand {
+        color: #254441 !important;
+        font-size: 16px;
+    }
 }
 
 
@@ -153,10 +169,17 @@
         justify-content: flex-start;
         padding-top: 15px;
         font-size: smaller;
+
+        .nav-link {
+            display: flex;
+            justify-content: flex-start;
+            box-sizing: content-box;
+        }
     }
 
     .contenido,
     .cuerpo-index,
+    .contenido-index,
     #main-nosotres,
     #main-preguntas,
     #main-cristales,
@@ -167,7 +190,8 @@
 
     }
 
-    .footer {
+    .footer,
+    .navbar-brand {
         color: #254441 !important;
         text-align: center;
         text-decoration: none;
