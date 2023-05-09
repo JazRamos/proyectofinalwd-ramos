@@ -1,8 +1,12 @@
+$color-fondo: linear-gradient(#cebfca, white);
+$color-texto: #254441;
+$font-titulos: "Poppins";
+
 .footer {
     display: flex;
     justify-content: center;
     background-color: #eadae6;
-    font-family: "Poppins";
+    font-family: $font-titulos;
     color: $color-texto !important;
     text-align: center;
     text-decoration: none;
