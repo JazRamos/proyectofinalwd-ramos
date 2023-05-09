@@ -1,0 +1,36 @@
+@media (max-width: 790px) {
+    .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        padding-top: 15px;
+        font-size: smaller;
+
+        .nav-link {
+            display: flex;
+            justify-content: flex-start;
+            box-sizing: content-box;
+        }
+    }
+
+    .contenido,
+    .cuerpo-index,
+    .contenido-index,
+    #main-nosotres,
+    #main-preguntas,
+    #main-cristales,
+    #main-contacto {
+        font-size: 11pt;
+        height: 50%;
+        width: 95%;
+
+    }
+
+    .footer,
+    .navbar-brand {
+        color:$color-texto !important;
+        text-align: center;
+        text-decoration: none;
+        font-size: smaller;
+    }
+}

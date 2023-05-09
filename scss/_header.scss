@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    background-color: #eadae6;
+    font-family: "Poppins";
+    font-size: 20px;
+    text-decoration: none;
+
+    .contenedor-head {
+        justify-content: flex-start !important;
+
+        .navbar-collapse {
+            flex-direction: row;
+            /* flex-basis: 0; */
+            flex-grow: 0;
+            margin: 15px;
+
+            .nav-link {
+                color: $color-texto;
+
+                &:hover {
+                    color: #6e46ff;
+                }
+            }
+        }
+    }
+}

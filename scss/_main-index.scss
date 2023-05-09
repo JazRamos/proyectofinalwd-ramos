@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap');
+@import 'animate.css';
+
+.titulos {
+    display: block;
+    padding-left: 50px;
+    margin-bottom: 0;
+    font-family: "Open Sans";
+    font-weight: bolder;
+    background-image: linear-gradient(#eadae6, #cebfca);
+    color: $color-texto;
+}
+
+#main-index {
+    align-content: center;
+    background-image: $color-fondo;
+    text-align: left;
+    color: $color-texto;
+    font-family: "Open Sans";
+    font-weight: bolder;
+
+    .cuerpo-index {
+        position: relative;
+        width: 80%;
+        margin: 0 auto;
+        font-size: 25px !important;
+
+        .contenido-index {
+            position: absolute;
+            bottom: 0;
+            background: rgb(0, 0, 0);
+            background: rgba(0, 0, 0, 0.5);
+            color: #f1f1f1;
+            width: 97%;
+            padding: 20px;
+        }
+    }
+}
