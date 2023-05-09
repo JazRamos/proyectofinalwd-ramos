@@ -101,7 +101,7 @@
     font-family: "Open Sans";
     --bs-accordion-color: #254441;
     --bs-accordion-btn-focus-border-color: #86fede;
-    --bs-accordion-active-color: #254441;
+    --bs-accordion-active-color: $color-texto;
     --bs-accordion-active-bg: #dafaf2; }
 
 .footer {

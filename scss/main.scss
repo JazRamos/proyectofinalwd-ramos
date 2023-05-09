@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap');
 @import 'animate.css';
 
+$color-fondo: linear-gradient(#cebfca, white);
+$color-texto: #254441;
+$font-titulos: "Poppins";
+
 * {
     margin: 0;
     padding: 0;
@@ -27,7 +31,7 @@
             margin: 15px;
 
             .nav-link {
-                color: #254441;
+                color: $color-texto;
 
                 &:hover {
                     color: #6e46ff;
@@ -45,14 +49,14 @@
     font-family: "Open Sans";
     font-weight: bolder;
     background-image: linear-gradient(#eadae6, #cebfca);
-    color: #254441;
+    color: $color-texto;
 }
 
 #main-index {
     align-content: center;
-    background-image: linear-gradient(#cebfca, white);
+    background-image: $color-fondo;
     text-align: left;
-    color: #254441;
+    color: $color-texto;
     font-family: "Open Sans";
     font-weight: bolder;
 
@@ -76,9 +80,9 @@
 
 #main-nosotres {
     align-content: center;
-    background-image: linear-gradient(#cebfca, white);
+    background-image: $color-fondo;
     font-size: 12px;
-    color: #254441;
+    color: $color-texto;
     font-family: "Open Sans";
     font-weight: bolder;
 
@@ -101,11 +105,11 @@
     align-content: center;
     padding-left: 30px;
     font-family: "Open Sans";
-    color: #254441 !important;
-    background-image: linear-gradient(#cebfca, white) !important;
+    color: $color-texto !important;
+    background-image: $color-fondo !important;
 
     .cuerpo-contacto {
-        background-image: linear-gradient(#cebfca, white);
+        background-image: $color-fondo;
         padding-bottom: 20px;
     }
 
@@ -116,9 +120,9 @@
 #main-cristales {
     align-content: center;
     font-family: "Open Sans";
-    background-image: linear-gradient(#cebfca, white);
+    background-image: $color-fondo;
     padding-bottom: 20px;
-    color: #254441;
+    color: $color-texto;
 
     .row-cristales {
         padding-left: 150px;
@@ -131,15 +135,15 @@
 #main-preguntas {
     align-content: center;
     font-family: "Open Sans";
-    background-image: linear-gradient(#cebfca, white);
-    color: #254441;
+    background-image: $color-fondo;
+    color: $color-texto;
 
     .accordion {
         padding-top: 15px;
         font-family: "Open Sans";
         --bs-accordion-color: #254441;
         --bs-accordion-btn-focus-border-color: #86fede;
-        --bs-accordion-active-color: #254441;
+        --bs-accordion-active-color: $color-texto;
         --bs-accordion-active-bg: #dafaf2;
     }
 
@@ -151,12 +155,12 @@
     justify-content: center;
     background-color: #eadae6;
     font-family: "Poppins";
-    color: #254441 !important;
+    color: $color-texto !important;
     text-align: center;
     text-decoration: none;
 
     .navbar-brand {
-        color: #254441 !important;
+        color: $color-texto !important;
         font-size: 16px;
     }
 }
@@ -192,7 +196,7 @@
 
     .footer,
     .navbar-brand {
-        color: #254441 !important;
+        color:$color-texto !important;
         text-align: center;
         text-decoration: none;
         font-size: smaller;
