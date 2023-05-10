@@ -1,9 +1,14 @@
+$color-fondo: linear-gradient(#cebfca, white);
+$color-texto: #254441;
+$font-titulos: "Poppins";
+$font-cuerpos: "Open Sans";
+
 #main-nosotres {
     align-content: center;
     background-image: $color-fondo;
     font-size: 12px;
     color: $color-texto;
-    font-family: "Open Sans";
+    font-family: $font-cuerpos;
     font-weight: bolder;
 
     .subtitulo-nos {

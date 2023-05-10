@@ -1,16 +1,11 @@
-.titulos {
-    display: block;
-    padding-left: 50px;
-    margin-bottom: 0;
-    font-family: "Open Sans";
-    font-weight: bolder;
-    background-image: linear-gradient(#eadae6, #cebfca);
-    color: $color-texto;
-}
+$color-fondo: linear-gradient(#cebfca, white);
+$color-texto: #254441;
+$font-titulos: "Poppins";
+$font-cuerpos: "Open Sans";
 
 #main-cristales {
     align-content: center;
-    font-family: "Open Sans";
+    font-family: $font-cuerpos !important;
     background-image: $color-fondo;
     padding-bottom: 20px;
     color: $color-texto;

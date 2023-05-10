@@ -1,11 +1,16 @@
+$color-fondo: linear-gradient(#cebfca, white);
+$color-texto: #254441;
+$font-titulos: "Poppins";
+$font-cuerpos: "Open Sans";
+
 #main-preguntas {
     align-content: center;
-    font-family: "Open Sans";
+    font-family: $font-cuerpos;
     background-image: $color-fondo;
     color: $color-texto;
     .accordion {
         padding-top: 15px;
-        font-family: "Open Sans";
+        font-family: $font-cuerpos;
         --bs-accordion-color: #254441;
         --bs-accordion-btn-focus-border-color: #86fede;
         --bs-accordion-active-color: $color-texto;

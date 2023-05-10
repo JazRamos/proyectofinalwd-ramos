@@ -1,7 +1,12 @@
+$color-fondo: linear-gradient(#cebfca, white);
+$color-texto: #254441;
+$font-titulos: "Poppins";
+$font-cuerpos: "Open Sans";
+
 #main-contacto {
     align-content: center;
     padding-left: 30px;
-    font-family: "Open Sans";
+    font-family: $font-cuerpos ;
     color: $color-texto !important;
     background-image: $color-fondo !important;
 
@@ -10,4 +15,4 @@
         padding-bottom: 20px;
     }
 
-}
+}   
