@@ -11,17 +11,23 @@
     .contenedor-head {
         justify-content: flex-start !important;
 
-        .navbar-collapse {
-            flex-direction: row;
-            /* flex-basis: 0; */
-            flex-grow: 0;
-            margin: 15px;
+        .navbar-toggler {
+            padding: 10px;
+            font-size: 1.5rem ;
+            
 
-            .nav-link {
-                color: $color-texto;
+            .navbar-collapse {
+                flex-direction: row;
+                /* flex-basis: 0; */
+                flex-grow: 0;
+                margin: 15px;
 
-                &:hover {
-                    color: #6e46ff;
+                .nav-link {
+                    color: $color-texto;
+
+                    &:hover {
+                        color: #6e46ff;
+                    }
                 }
             }
         }

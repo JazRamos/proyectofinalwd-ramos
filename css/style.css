@@ -9,9 +9,11 @@
   color: #254441 !important;
   text-align: center;
   text-decoration: none; }
-  .footer .navbar-brand {
-    color: #254441 !important;
-    font-size: 16px; }
+  .footer .fixed-bottom {
+    position: static; }
+    .footer .fixed-bottom .navbar-brand {
+      color: #254441 !important;
+      font-size: 16px; }
 
 .header {
   display: flex;
@@ -24,24 +26,30 @@
   text-decoration: none; }
   .header .contenedor-head {
     justify-content: flex-start !important; }
-    .header .contenedor-head .navbar-collapse {
-      flex-direction: row;
-      /* flex-basis: 0; */
-      flex-grow: 0;
-      margin: 15px; }
-      .header .contenedor-head .navbar-collapse .nav-link {
-        color: #254441; }
-        .header .contenedor-head .navbar-collapse .nav-link:hover {
-          color: #6e46ff; }
+    .header .contenedor-head .navbar-toggler {
+      padding: 10px;
+      font-size: 1.5rem; }
+      .header .contenedor-head .navbar-toggler .navbar-collapse {
+        flex-direction: row;
+        /* flex-basis: 0; */
+        flex-grow: 0;
+        margin: 15px; }
+        .header .contenedor-head .navbar-toggler .navbar-collapse .nav-link {
+          color: #254441; }
+          .header .contenedor-head .navbar-toggler .navbar-collapse .nav-link:hover {
+            color: #6e46ff; }
 
 #main-contacto {
   align-content: center;
   padding-left: 30px;
+  background-image: linear-gradient(#cebfca, white) !important;
   font-family: "Open Sans";
-  color: #254441 !important;
-  background-image: linear-gradient(#cebfca, white) !important; }
+  color: #254441 !important; }
   #main-contacto .cuerpo-contacto {
-    background-image: linear-gradient(#cebfca, white);
+    display: flex !important;
+    align-content: center;
+    font-family: "Open Sans" !important;
+    background-color: linear-gradient(#cebfca, white) !important;
     padding-bottom: 20px; }
 
 #main-cristales {

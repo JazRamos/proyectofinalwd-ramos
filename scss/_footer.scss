@@ -11,8 +11,12 @@ $font-titulos: "Poppins";
     text-align: center;
     text-decoration: none;
 
-    .navbar-brand {
-        color: $color-texto !important;
-        font-size: 16px;
+    .fixed-bottom {
+        position: static;
+
+        .navbar-brand {
+            color: $color-texto !important;
+            font-size: 16px;
+        }
     }
 }
