@@ -3,19 +3,23 @@ $color-texto: #254441;
 $font-titulos: "Poppins";
 $font-cuerpos: "Open Sans";
 
+
 #main-index {
     align-content: center;
-    background-image: $color-fondo;
+    background-image: url("../Imagenes/fondo-index.jpg ");
+    height: 74vh;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    margin: 0;
+    font-size: 25px;
     text-align: left;
     color: $color-texto;
     font-family: $font-cuerpos;
-    font-weight: bolder;
-
-    .cuerpo-index {
-        position: relative;
-        width: 100%;
-        margin: 0 auto;
-        font-size: 25px ;
+    font-weight:700;
 
         .contenido-index {
             position: absolute;
@@ -23,9 +27,7 @@ $font-cuerpos: "Open Sans";
             background: rgb(0, 0, 0);
             background: rgba(0, 0, 0, 0.5);
             color: #f1f1f1;
-            height: 30rem;
-            width: 98%;
+            height: 38vh;
             padding: 20px;
         }
     }
-}

@@ -12,6 +12,7 @@
   .footer .fixed-bottom {
     position: static; }
     .footer .fixed-bottom .navbar-brand {
+      display: flex;
       color: #254441 !important;
       font-size: 16px; }
 
@@ -25,7 +26,7 @@
   font-size: 20px;
   text-decoration: none; }
   .header .contenedor-head {
-    justify-content: flex-start !important; }
+    justify-content: flex-end !important; }
     .header .contenedor-head .navbar-toggler {
       padding: 10px;
       font-size: 1.5rem; }
@@ -64,25 +65,28 @@
 
 #main-index {
   align-content: center;
-  background-image: linear-gradient(#cebfca, white);
+  background-image: url("../Imagenes/fondo-index.jpg ");
+  height: 74vh;
+  overflow: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  margin: 0;
+  font-size: 25px;
   text-align: left;
   color: #254441;
   font-family: "Open Sans";
-  font-weight: bolder; }
-  #main-index .cuerpo-index {
-    position: relative;
-    width: 100%;
-    margin: 0 auto;
-    font-size: 25px; }
-    #main-index .cuerpo-index .contenido-index {
-      position: absolute;
-      bottom: 0;
-      background: black;
-      background: rgba(0, 0, 0, 0.5);
-      color: #f1f1f1;
-      height: 30rem;
-      width: 98%;
-      padding: 20px; }
+  font-weight: 700; }
+  #main-index .contenido-index {
+    position: absolute;
+    bottom: 0;
+    background: black;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    height: 38vh;
+    padding: 20px; }
 
 #main-nosotres {
   align-content: center;
@@ -112,7 +116,7 @@
     --bs-accordion-active-color: $color-texto;
     --bs-accordion-active-bg: #dafaf2; }
 
-@media (max-width: 790px) {
+@media (max-width: 425px) {
   .header {
     display: flex;
     flex-direction: row;
@@ -123,12 +127,12 @@
       display: flex;
       justify-content: flex-start;
       box-sizing: content-box; }
-  #main-index .cuerpo-index {
-    font-size: smaller;
-    height: 90%; }
-    #main-index .cuerpo-index .contenido-index {
-      height: 15rem;
-      width: 30rem; }
+  #main-index {
+    background-image: url("../Imagenes/fondoquery.jpg "); }
+    #main-index .contenido-index {
+      height: 44vh;
+      font-size: 10px;
+      width: 100vw; }
   #main-nosotres,
   #main-preguntas,
   #main-cristales,

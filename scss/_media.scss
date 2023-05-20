@@ -1,4 +1,4 @@
-@media (max-width: 790px) {
+@media (max-width: 425px) {
     .header {
         display: flex;
         flex-direction: row;
@@ -14,16 +14,15 @@
     }
 
     #main-index {
-        
-        .cuerpo-index {
-            font-size: smaller;
-            height: 90%;
+        background-image: url("../Imagenes/fondoquery.jpg ");
+
             .contenido-index {
-                height: 15rem;
-                width: 30rem;
+                height: 44vh;
+                font-size: 10px;
+                width: 100vw;
             }   
 
-        }
+        
     }
 
 
