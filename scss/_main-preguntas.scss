@@ -8,6 +8,13 @@ $font-cuerpos: "Open Sans";
     font-family: $font-cuerpos;
     background-image: $color-fondo;
     color: $color-texto;
+    background-image: url("../Imagenes/edz-norton-EUIALcbnQYI-unsplash.jpg");
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 15px;
+    padding-top: 15px;
+
     .accordion {
         padding-top: 15px;
         font-family: $font-cuerpos;
@@ -15,6 +22,7 @@ $font-cuerpos: "Open Sans";
         --bs-accordion-btn-focus-border-color: #86fede;
         --bs-accordion-active-color: $color-texto;
         --bs-accordion-active-bg: #dafaf2;
-    }
+        --bs-gutter-x: 70vw;
 
+    }
 }

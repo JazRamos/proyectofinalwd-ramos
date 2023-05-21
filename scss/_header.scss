@@ -1,3 +1,7 @@
+$color-fondo: linear-gradient(#cebfca, white);
+$color-texto: #254441;
+$font-titulos: "Poppins";
+
 .header {
     display: flex;
     padding-top: 10px;
@@ -23,10 +27,10 @@
                 margin: 15px;
 
                 .nav-link {
-                    color: $color-texto;
+                    color: $color-texto !important;
 
                     &:hover {
-                        color: #6e46ff;
+                        color: #6e46ff !important ;
                     }
                 }
             }

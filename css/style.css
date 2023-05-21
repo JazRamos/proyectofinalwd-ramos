@@ -8,13 +8,16 @@
   font-family: "Poppins";
   color: #254441 !important;
   text-align: center;
-  text-decoration: none; }
-  .footer .fixed-bottom {
-    position: static; }
-    .footer .fixed-bottom .navbar-brand {
-      display: flex;
-      color: #254441 !important;
-      font-size: 16px; }
+  text-decoration: none;
+  padding-top: 10px;
+  padding-bottom: 0;
+  position: static; }
+  .footer .row {
+    padding-right: 10px; }
+  .footer .navbar-brand {
+    display: flex;
+    color: #254441 !important;
+    font-size: 16px; }
 
 .header {
   display: flex;
@@ -36,9 +39,9 @@
         flex-grow: 0;
         margin: 15px; }
         .header .contenedor-head .navbar-toggler .navbar-collapse .nav-link {
-          color: #254441; }
+          color: #254441 !important; }
           .header .contenedor-head .navbar-toggler .navbar-collapse .nav-link:hover {
-            color: #6e46ff; }
+            color: #6e46ff !important; }
 
 #main-contacto {
   align-content: center;
@@ -66,7 +69,7 @@
 #main-index {
   align-content: center;
   background-image: url("../Imagenes/fondo-index.jpg ");
-  height: 74vh;
+  height: 75vh;
   overflow: hidden;
   background-position: center;
   background-repeat: no-repeat;
@@ -107,14 +110,21 @@
   align-content: center;
   font-family: "Open Sans";
   background-image: linear-gradient(#cebfca, white);
-  color: #254441; }
+  color: #254441;
+  background-image: url("../Imagenes/edz-norton-EUIALcbnQYI-unsplash.jpg");
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 15px;
+  padding-top: 15px; }
   #main-preguntas .accordion {
     padding-top: 15px;
     font-family: "Open Sans";
     --bs-accordion-color: #254441;
     --bs-accordion-btn-focus-border-color: #86fede;
     --bs-accordion-active-color: $color-texto;
-    --bs-accordion-active-bg: #dafaf2; }
+    --bs-accordion-active-bg: #dafaf2;
+    --bs-gutter-x: 70vw; }
 
 @media (max-width: 425px) {
   .header {
@@ -156,5 +166,4 @@
   margin-bottom: 0;
   font-family: "Open Sans";
   font-weight: bolder;
-  background-image: linear-gradient(#eadae6, #cebfca);
   color: #254441; }
