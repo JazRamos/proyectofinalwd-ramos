@@ -1,4 +1,4 @@
-@media (max-width: 425px) {
+@media (max-width: 590px) {
     .header {
         display: flex;
         flex-direction: row;
@@ -14,22 +14,51 @@
     }
 
     #main-index {
-        background-image: url("../Imagenes/fondoquery.jpg ");
+        background-image: url("../Imagenes/fondoquery.png ");
 
-            .contenido-index {
-                height: 44vh;
-                font-size: 10px;
-                width: 100vw;
-            }   
+        .contenido-index {
+            height: 44vh;
+            font-size: 10px;
+            width: 100vw;
+        }
 
-        
+
     }
 
 
-    #main-nosotres,
-    #main-preguntas,
-    #main-cristales,
+    #main-nosotres {
+        align-items: center;
+        font-size: 11pt;
+        height: 50%;
+
+        .cuerpo-nos {
+            align-items: center;
+
+            .img-fluid {
+                width: 400px;
+            }
+
+        }
+    }
+
+    #main-preguntas{
+        align-content: center;
+        font-size: 11pt;
+        height: 50%;
+        width: 95%;
+        background-position: fixed;
+        .accordion{
+            font-size: 9pt;
+        }
+    }
+    #main-cristales{
+        align-content: center;
+        font-size: 11pt;
+        height: 50%;
+        width: 95%;
+    }
     #main-contacto {
+       align-content: center;
         font-size: 11pt;
         height: 50%;
         width: 95%;

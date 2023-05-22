@@ -6,12 +6,15 @@ $font-cuerpos: "Open Sans";
 #main-preguntas {
     align-content: center;
     font-family: $font-cuerpos;
+    font-weight:500;
     background-image: $color-fondo;
     color: $color-texto;
-    background-image: url("../Imagenes/edz-norton-EUIALcbnQYI-unsplash.jpg");
+    background-image: url("../Imagenes/fondo-preg.jpg");
+    background-blend-mode:lighten;
     background-position: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+
     padding-bottom: 15px;
     padding-top: 15px;
 
@@ -19,10 +22,12 @@ $font-cuerpos: "Open Sans";
         padding-top: 15px;
         font-family: $font-cuerpos;
         --bs-accordion-color: #254441;
-        --bs-accordion-btn-focus-border-color: #86fede;
+        --bs-accordion-btn-focus-border-color: #aab4e2;
         --bs-accordion-active-color: $color-texto;
-        --bs-accordion-active-bg: #dafaf2;
+        --bs-accordion-active-bg: #aab4e2;
         --bs-gutter-x: 70vw;
-
+        --bs-accordion-bg: #f3f3f3be;
+        --bs-accordion-border-color:#aca9a9;
+        
     }
 }

@@ -13,7 +13,8 @@
   padding-bottom: 0;
   position: static; }
   .footer .row {
-    padding-right: 10px; }
+    justify-content: center;
+    width: auto; }
   .footer .navbar-brand {
     display: flex;
     color: #254441 !important;
@@ -46,20 +47,24 @@
 #main-contacto {
   align-content: center;
   padding-left: 30px;
-  background-image: linear-gradient(#cebfca, white) !important;
   font-family: "Open Sans";
   color: #254441 !important; }
   #main-contacto .cuerpo-contacto {
     display: flex !important;
     align-content: center;
     font-family: "Open Sans" !important;
-    background-color: linear-gradient(#cebfca, white) !important;
-    padding-bottom: 20px; }
+    padding-bottom: 20px;
+    background-image: url("../Imagenes/fondo-contacto.png") !important;
+    height: 75vh;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
 
 #main-cristales {
   align-content: center;
   font-family: "Open Sans" !important;
-  background-image: linear-gradient(#cebfca, white);
+  background-image: linear-gradient(#eadae6, #cebfca);
   padding-bottom: 20px;
   color: #254441; }
   #main-cristales .row-cristales {
@@ -68,7 +73,7 @@
 
 #main-index {
   align-content: center;
-  background-image: url("../Imagenes/fondo-index.jpg ");
+  background-image: url("../Imagenes/fondo-index.png ");
   height: 75vh;
   overflow: hidden;
   background-position: center;
@@ -99,19 +104,26 @@
   font-family: "Open Sans";
   font-weight: bolder; }
   #main-nosotres .subtitulo-nos {
-    background-color: #cebfca;
+    background-color: #cebfca, 0.5;
     text-align: center;
     margin: 0;
     padding-bottom: 10px; }
   #main-nosotres .cuerpo-nos {
-    text-align: center; }
+    padding-left: 100px;
+    padding-bottom: 15px;
+    text-align: left;
+    font-size: 12pt; }
+    #main-nosotres .cuerpo-nos img {
+      height: 400px; }
 
 #main-preguntas {
   align-content: center;
   font-family: "Open Sans";
+  font-weight: 500;
   background-image: linear-gradient(#cebfca, white);
   color: #254441;
-  background-image: url("../Imagenes/edz-norton-EUIALcbnQYI-unsplash.jpg");
+  background-image: url("../Imagenes/fondo-preg.jpg");
+  background-blend-mode: lighten;
   background-position: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -121,12 +133,14 @@
     padding-top: 15px;
     font-family: "Open Sans";
     --bs-accordion-color: #254441;
-    --bs-accordion-btn-focus-border-color: #86fede;
+    --bs-accordion-btn-focus-border-color: #aab4e2;
     --bs-accordion-active-color: $color-texto;
-    --bs-accordion-active-bg: #dafaf2;
-    --bs-gutter-x: 70vw; }
+    --bs-accordion-active-bg: #aab4e2;
+    --bs-gutter-x: 70vw;
+    --bs-accordion-bg: #f3f3f3be;
+    --bs-accordion-border-color:#aca9a9; }
 
-@media (max-width: 425px) {
+@media (max-width: 590px) {
   .header {
     display: flex;
     flex-direction: row;
@@ -138,15 +152,34 @@
       justify-content: flex-start;
       box-sizing: content-box; }
   #main-index {
-    background-image: url("../Imagenes/fondoquery.jpg "); }
+    background-image: url("../Imagenes/fondoquery.png "); }
     #main-index .contenido-index {
       height: 44vh;
       font-size: 10px;
       width: 100vw; }
-  #main-nosotres,
-  #main-preguntas,
-  #main-cristales,
+  #main-nosotres {
+    align-items: center;
+    font-size: 11pt;
+    height: 50%; }
+    #main-nosotres .cuerpo-nos {
+      align-items: center; }
+      #main-nosotres .cuerpo-nos .img-fluid {
+        width: 400px; }
+  #main-preguntas {
+    align-content: center;
+    font-size: 11pt;
+    height: 50%;
+    width: 95%;
+    background-position: fixed; }
+    #main-preguntas .accordion {
+      font-size: 9pt; }
+  #main-cristales {
+    align-content: center;
+    font-size: 11pt;
+    height: 50%;
+    width: 95%; }
   #main-contacto {
+    align-content: center;
     font-size: 11pt;
     height: 50%;
     width: 95%; }

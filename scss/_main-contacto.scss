@@ -6,19 +6,24 @@ $font-cuerpos: "Open Sans";
 #main-contacto {
     align-content: center;
     padding-left: 30px;
-    background-image: $color-fondo !important;
+    
+    
     font-family: $font-cuerpos ;
     color: $color-texto !important;
 
 
     .cuerpo-contacto {
+
         display: flex !important;
         align-content: center;
         font-family: $font-cuerpos !important;
-        background-color: $color-fondo !important;
         padding-bottom: 20px;
-
-       
+        background-image: url("../Imagenes/fondo-contacto.png") !important;
+        height: 75vh;
+        overflow: hidden;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
 }

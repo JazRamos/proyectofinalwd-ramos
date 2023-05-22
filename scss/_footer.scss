@@ -14,7 +14,8 @@ $font-titulos: "Poppins";
     padding-bottom: 0;
     position: static;
 .row{
-    padding-right: 10px;
+    justify-content: center;
+    width: auto;
 }
     .navbar-brand {
         display: flex;

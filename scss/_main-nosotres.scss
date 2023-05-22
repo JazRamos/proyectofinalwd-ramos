@@ -12,14 +12,20 @@ $font-cuerpos: "Open Sans";
     font-weight: bolder;
 
     .subtitulo-nos {
-        background-color: #cebfca;
+        background-color: #cebfca, 0.5;
         text-align: center;
         margin: 0;
         padding-bottom: 10px;
     }
 
     .cuerpo-nos {
-        text-align: center;
+        padding-left: 100px;
+        padding-bottom: 15px;
+        text-align: left;
+        font-size: 12pt;
+        img{
+            height: 400px;
+        }
 
     }
 
